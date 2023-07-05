@@ -1,3 +1,8 @@
 .frontpic{
-    background-image: url();
+    height: 400px;
+    background-image: url(../pictures/photo-1508867743401-21ad68d105b1.jpeg);
+    background-position:50% 65  %;
+    background-size: cover;
+    margin: 50px 40px 30px ;
+    
 }
