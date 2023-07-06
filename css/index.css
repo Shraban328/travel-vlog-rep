@@ -5,28 +5,30 @@
 .menu-bar {
   display: flex;
   justify-content: space-around;
+  height: 50px;
+  align-items: center;
 }
 .cover-pic {
   height: 400px;
   background-image: url(../pictures/photo-1508867743401-21ad68d105b1.jpeg);
   background-position: 50% 65%;
   background-size: cover;
-  margin: 0px 0px 30px;
   text-align: center;
   font-size: 100px;
-  /* border: 5px solid black; */
 }
 .content-container {
   display: block;
   display: flex;
   justify-content: space-around;
+  background-color: rgb(56, 137, 110);
+  height: 100vh;
+  align-items: center;
 }
 .tips {
-  border: 1px solid black;
   height: 350px;
   width: 360px;
   padding: 30px;
-  background-color: rgb(79, 116, 118);
+  background-color: rgba(0, 0, 0, 0.537);
   color: white;
 }
 .list {
@@ -37,6 +39,7 @@
 }
 .options {
   list-style: none;
+  display: flex;
 }
 .content {
   margin-top: 10px;
@@ -44,4 +47,15 @@
 }
 .heading {
   font-size: 30px;
+}
+.page-links {
+  margin-right: 10px;
+  font-size: 20px;
+  border: 5px solid transparent;
+}
+.page-links:hover {
+  background-color: grey;
+}
+.logo {
+  font-size: 25px;
 }
